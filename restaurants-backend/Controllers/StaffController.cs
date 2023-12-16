@@ -40,7 +40,7 @@ public class StaffController : ControllerBase
             return NotFound();
         }
 
-        return Ok(_mapper.Map<StaffDto>(staff));
+        return Ok(_mapper.Map<StaffDetailDto>(staff));
     }
 
     // POST: api/Staff

@@ -9,6 +9,7 @@ namespace restaurants_backend.RequestHelpers
         public MappingProfiles()
         {
             CreateMap<Staff, StaffDto>();
+            CreateMap<Staff, StaffDetailDto>();
             CreateMap<CreateStaffDto, Staff>();
             CreateMap<UpdateStaffDto, Staff>();
         }
