@@ -8,5 +8,6 @@ namespace restaurants_backend.DTOs
         public string LastName { get; set; }
         public double HourlyWage { get; set; }
         public bool FullTime { get; set; }
+        public string? Notes { get; set; }
     }
 }
